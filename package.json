@@ -1,0 +1,38 @@
+{
+	"name": "nodejs-typescript-boilerplate",
+	"version": "1.0.0",
+	"description": "Nodejs typescript boilerplate.",
+	"main": " src/main.ts",
+	"scripts": {
+		"start": "node dist/main.js",
+		"start:dev": "nodemon src/main.ts",
+		"build": "tsc -p .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/0x4bd0/nodeJs-typeScript-boilerplate.git"
+	},
+	"keywords": [
+		"node.js",
+		"typescript",
+		"boilerplate"
+	],
+	"author": "abdoumjr@gmail.com",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/0x4bd0/nodeJs-typeScript-boilerplate/issues"
+	},
+	"homepage": "https://github.com/0x4bd0/nodeJs-typeScript-boilerplate#readme",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.11",
+		"@types/node": "^14.14.36",
+		"nodemon": "^2.0.7",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.2.3"
+	}
+}
